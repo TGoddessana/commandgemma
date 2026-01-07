@@ -1,0 +1,18 @@
+[project]
+name = "commandgemma"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.4.2",
+    "torch>=2.5.0",
+    "transformers>=4.47.0",
+    "trl>=0.12.0",
+    "accelerate>=1.2.0",
+    "peft>=0.14.0",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "pandas>=2.3.3",
+    "google-genai>=1.56.0",
+    "tensorboard>=2.20.0",
+]
